@@ -51,11 +51,11 @@ http://127.0.0.1:8000/users/
 
 IMPORTANT: In order to submit the information in Postman, you need to add the information of the requests in Body -> Select Raw and in the Dropdown (Text by default) select Json
 
-Example of POST/PUT Requests
+Example of POST/PUT Requests (Remove extra enters)
 <br> </br>
 <br>User</br>
-<br>{</br>
-<br>"name": "Andy",</br>
+{
+"name": "Andy",
 <br>"age":27</br>
 <br>}</br>
 <br>Accounts</br>
