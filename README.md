@@ -53,31 +53,31 @@ IMPORTANT: In order to submit the information in Postman, you need to add the in
 
 Example of POST/PUT Requests
 <br> </br>
-User
-{
-"name": "Andy",
-"age":27
-}
-Accounts
-{
-        "account_number": "5152",
-        "balance": 5000.0,
-        "limit": 7000.0,
-        "user_id": 2
-    }
-Cards
-{
-        "account_number": "5152",
-        "name": "Azul",
-        "cvv": 123,
-    }
-Payments (The balance is increased to the card)
-{
-        "card_id": 1,
-        "amount": 5000.00
-    }
-Charges (The balance is decreased to the card)
-{
-        "card_id": 1,
-        "amount": 10000.00
-    }
+<br>User</br>
+<br>{</br>
+<br>"name": "Andy",</br>
+<br>"age":27</br>
+<br>}</br>
+<br>Accounts</br>
+<br>{</br>
+<br>"account_number": "5152",</br>
+<br>"balance": 5000.0,</br>
+<br>"limit": 7000.0,</br>
+<br>"user_id": 2</br>
+<br>}</br>
+<br>Cards</br>
+<br>{</br>
+<br>"account_number": "5152",</br>
+<br>"name": "Azul",</br>
+<br>"cvv": 123,</br>
+<br>}</br>
+<br>Payments (The balance is increased to the card)</br>
+<br>{</br>
+<br>"card_id": 1,</br>
+<br>"amount": 5000.00</br>
+<br>}</br>
+<br>Charges (The balance is decreased to the card)</br>
+<br>{</br>
+<br>"card_id": 1,</br>
+<br>"amount": 10000.00</br>
+<br>}</br>
