@@ -13,18 +13,20 @@ PyJWT 2.8.0
 -Postman
 
 <h3>Endpoints and Methods Allowed</h3>
-    "api/token/", 
-    "api/token/refresh/",
-    "users/", -> GET, POST
-    "users/username", -> GET, PUT, DELETE
-    "accounts/", -> GET, POST
-    "accounts/id", -> GET, DELETE
-    "cards/", -> GET, POST
-    "cards/id",  -> GET, PUT, DELETE
-    "charges/", -> GET, POST
-    "charges/id -> GET, DELETE
-    "payments/", -> GET, POST
-    "payments/id" -> GET, DELETE
+<br>"api/token/",</br>
+<br>"api/token/refresh/",</br>
+<br>"users/", -> GET, POST</br>
+<br>"users/username", -> GET, PUT, DELETE </br>
+<br>"accounts/", -> GET, POST </br>
+<br>"accounts/id", -> GET, DELETE </br>
+<br>"cards/", -> GET, POST </br>
+<br>"cards/id",  -> GET, PUT, DELETE </br>
+<br>"charges/", -> GET, POST </br>
+<br>"charges/id -> GET, DELETE </br>
+<br>"payments/", -> GET, POST </br>
+<br>"payments/id" -> GET, DELETE </br>
+
+<br></br>
 
 Usage:
 You need to initiate the application by locating into the Django_Reto/developers_api folder in your terminal, after that and all the packages were installed, you need to launch the application by executing the command:
@@ -50,8 +52,8 @@ http://127.0.0.1:8000/users/
 IMPORTANT: In order to submit the information in Postman, you need to add the information of the requests in Body -> Select Raw and in the Dropdown (Text by default) select Json
 
 Example of POST/PUT Requests
-
-User 
+<br> </br>
+User
 {
 "name": "Andy",
 "age":27
