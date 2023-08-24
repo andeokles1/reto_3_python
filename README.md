@@ -12,7 +12,7 @@ djangorestframework-simplejwt 5.2.2
 PyJWT 2.8.0
 -Postman
 
-<h3>Endpoints and Methods Allowed/h3>
+<h3>Endpoints and Methods Allowed</h3>
     "api/token/", 
     "api/token/refresh/",
     "users/", -> GET, POST
