@@ -7,10 +7,10 @@ You can add payments and charges in order to decrease or increase the balance of
 <h3>Prerequisites</h3>
 - Python 3.9
 Need the following python packages to be installed:
-djangorestframework 3.14.0
-djangorestframework-simplejwt 5.2.2
-PyJWT 2.8.0
--Postman
+<br>djangorestframework 3.14.0</br>
+<br>djangorestframework-simplejwt 5.2.2 </br>
+<br>PyJWT 2.8.0 </br>
+<br>-Postman </br>
 
 <h3>Endpoints and Methods Allowed</h3>
 <br>"api/token/",</br>
